@@ -7,7 +7,7 @@ User=elspeth
 WorkingDirectory=/home/xander/sites/DOMAIN
 EnvironmentFile=/home/xander/sites/DOMAIN/.env
 
-ExecStart=/home/elspeth/sites/DOMAIN/virtualenv/bin/gunicorn \
+ExecStart=/home/xander/sites/DOMAIN/virtualenv/bin/gunicorn \
     --bind unix:/tmp/DOMAIN.socket \
     superlists.wsgi:application
 
