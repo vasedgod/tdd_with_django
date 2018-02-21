@@ -3,7 +3,7 @@ Description=Gunicorn server for DOMAIN
 
 [Service]
 Restart=on-failure
-User=elspeth
+User=xander
 WorkingDirectory=/home/xander/sites/DOMAIN
 EnvironmentFile=/home/xander/sites/DOMAIN/.env
 
